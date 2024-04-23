@@ -5,6 +5,20 @@ https://www.youtube.com/playlist?list=PLhOuww6rJJNP7UvTeF6_tQ1xcubAs9hvO
 Write a program to enthusiastically greet the world:
 
 ```
+python -m venv venv
+.\venv\Scripts\activate
+python3 -m pip install pytest
+
+MAC
+python3 -m venv venv
+chmod +x ./venv/bin/activate
+. ./venv/bin/activate
+python3 -m pip install pytest
+touch hello.py
+pytest test.py
+```
+
+```
 $ ./hello.py
 Hello, World!
 ```
